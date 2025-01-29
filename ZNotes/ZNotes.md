@@ -129,3 +129,54 @@
 
 41. [9] Palindrome Number - https://algo.monster/liteproblems/9
     No explanation is needed for this one, one better aproach is to reverse only the second half and compare, see the algo solution copied.
+
+[MEDIUM]
+
+42. [57] Insert Interval - https://algo.monster/liteproblems/57
+    This probelm extends merge interval and meeting rooms problem, we need to simply merge the overlaps and keep track of it in newInterval variable, Also I came up with a 5 step framework to approach the problems.
+
+43. [15] 3Sum - https://algo.monster/liteproblems/15
+    This extends twoSum and we can use twosum as subroutine to solve this problem. The main issue is finding triplets without duplicates, so to effectively solve this we need sort the input and use two pointer technique. I used set to handle the duplicates but we can add conditions to the code (a little complex) to skip the duplicates, see algo monster solution 
+
+44. [238] Product of Array Except Self - https://algo.monster/liteproblems/238
+    This problem involves multiple iteration of array trick, since we can't use division we need compute prefix and suffix of product for i-th position and multiply both to get the answer.
+
+45. [39] Combination Sum - https://algo.monster/liteproblems/39
+    I completely forgot the taking and leaving technique used in backtracking, everything else was there in my first attempt, but I had to learn the solution before completely solving, one more issue is that lists are pass by reference so i got empty ans, in this problem.
+    this is basic backtracking problem otherwise.
+
+46. [56] Merge Interval - https://algo.monster/liteproblems/56
+     Sorting 2D array based on first column and checking start and end of adjecent element will be enough but i keep forgetting sorting 2d array code syntax.
+
+47. [75] Sort Colors - https://algo.monster/liteproblems/75
+    Based on the solution approach uses a variant of the famous Dutch National Flag algorithm proposed by Edsger Dijkstra, we use 3 pointers to keep track of 0s, 1s, and 2s.
+
+48. [11] Container With Most Water - https://algo.monster/liteproblems/11
+    I was very worried about this problem cuz this has 35 min time limit but i was able solve it just like that after using pen and paper, I need keep follow this pen and paper strategy. this problem is basically two-pointer and greedly choice of max height at each iteration.
+
+49. [134] Gas Station - https://algo.monster/liteproblems/134
+    This extends greedy approach, we need fist smartly figure out the fail case by totaling cost and gas, then we can figure out the starting point by checking the start of the surplus. Look at the learned solution its good.
+
+50. [128] Longest Consecutive Sequence - https://algo.monster/liteproblems/128
+    This used to be hard solution!, but now its medium. I was very close to the idea but couldn't exactly figure out finding the starts of the sequences. but I was close, we need to use set to remove duplicates and get O(1) lookup time. Then we find the starts by checking for (num-1) and try to build a sequence with that.
+
+51. [189] Rotate Array - https://algo.monster/liteproblems/189
+    Main idea is to smartly reverse the arrays three times in place to achieve SC O(1) and TC O(n). 
+
+52. [525] Contiguous Array - https://leetcode.com/problems/contiguous-array/solutions/127452/contiguous-array/
+    This is problem was very interesting, and can't be solved in sliding window, we need keep the count of 1 and 0s occured till the index using map and get the diff of indexes if we finde same count twice.
+
+53. [560] Subarray Sum Equals K - https://leetcode.com/problems/subarray-sum-equals-k/editorial/
+    We need to use the idea of above solution to this as well. it seems there is hashmap pattern here.
+
+54. Meeting Rooms II - https://neetcode.io/solutions/meeting-rooms-ii    https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
+    This problem is based on sweep line algorithm, this can be solved using priorityQueue as well after sorting based on start time.
+
+55. [16] 3Sum Closest - https://algo.monster/liteproblems/16
+    I was able come up with solution with the hint of using two-pointer for this ques, rest of the problem was understandable from the question, sorting and looking for triplets is the trick with checking the diff of target was currentSum.
+
+56. [435] Non-overlapping Intervals - https://algo.monster/liteproblems/435
+    we need to sort the intervals by end time to know to group the intervals that are ending by the same time (possibly), then we compare the last non-overlaping intervals end to start of the current.
+
+57. [3] Longest Substring Without Repeating Characters - https://algo.monster/liteproblems/3
+    This problem was very easy when dry runned with examples, classic dynamic sliding window problem 

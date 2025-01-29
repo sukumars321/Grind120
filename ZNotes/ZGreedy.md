@@ -9,3 +9,6 @@
 10. Longest Palindrome - https://algo.monster/liteproblems/409
     We need to count the frequency of all the charatcers and take even freq of all chars but we can't take odd chars as it is we need to subtract one to make it even and then add 1 to ans to have a center element.
     The algorithm greedily decides what to with each freq.
+
+49. [134] Gas Station - https://algo.monster/liteproblems/134
+    This extends greedy approach, we need fist smartly figure out the fail case by totaling cost and gas, then we can figure out the starting point by checking the start of the surplus. Look at the learned solution its good.
