@@ -180,3 +180,30 @@
 
 57. [3] Longest Substring Without Repeating Characters - https://algo.monster/liteproblems/3
     This problem was very easy when dry runned with examples, classic dynamic sliding window problem 
+
+58. [8] String to Integer (atoi) - https://algo.monster/liteproblems/8
+    One of the simulation questions, you need to code the instructions given, the main blocker is handling integer overflow, I couldn’t come up with logic to efficiently check for positive and negative overflows. Look at the algo solution for overflow handling
+
+59. [5] Longest Palindromic Substring - https://algo.monster/liteproblems/5
+    I dont have the thinking process to do DP solution, so i am gonna learn DP. but I am able to come up with the gist of the problem based expanding around the center. the actual solution uses the same concepts in a better way
+
+60. [438] Find All Anagrams in a String - https://algo.monster/liteproblems/438
+    For this problem, I completely missed out on the sliding window pattern, my solution worked but was very slow and messy, look at the learned solution.
+
+61. [49] Group Anagrams - https://algo.monster/liteproblems/49
+    Its basically solvable with Map, all you have to do is figure out what to use as key to group the anagrams, that is done by sorting the string and the finding the right group.
+
+62. [424] Longest Repeating Character Replacement - https://algo.monster/liteproblems/424
+    I had th core idea correct but execution was very bad, need to better planning, and follow the problem solving steps.
+
+63. [179] Largest Number - https://leetcode.com/problems/largest-number/solutions/5783508/largest-number/
+    I was very close but I tried to treat the nums as integer but the solution is to convert them to strings and do string comparison with two strings concatenated.
+
+64. Encode and Decode String - https://algo.monster/liteproblems/271
+    to make it easier to decode we need embed the length info into the encoded string by appending length before the actual string, see the solution.
+
+65. [54] Spiral Matrix - https://leetcode.com/problems/spiral-matrix/solutions/6118323/proof-beats-100-user-java-beginner-friendly-easy-explanation/
+    I completly forgot the solution and approach to this problem. the solution implemented has less code but the standard can be found in the link.
+
+66. [36] Valid Sudoku - https://algo.monster/liteproblems/36
+    This is also simulation question with checking occurence using extra array space. see the solution.

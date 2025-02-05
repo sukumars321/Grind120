@@ -7,3 +7,9 @@
 
 54. Meeting Rooms II - https://neetcode.io/solutions/meeting-rooms-ii    https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
     This problem is based on sweep line algorithm, this can be solved using priorityQueue as well after sorting based on start time.
+
+65. [54] Spiral Matrix - https://leetcode.com/problems/spiral-matrix/solutions/6118323/proof-beats-100-user-java-beginner-friendly-easy-explanation/
+    I completly forgot the solution and approach to this problem. the solution implemented has less code but the standard can be found in the link.
+
+66. [36] Valid Sudoku - https://algo.monster/liteproblems/36
+    This is also simulation question with checking occurence using extra array space. see the solution.

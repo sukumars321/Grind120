@@ -12,3 +12,6 @@
 
 55. [16] 3Sum Closest - https://algo.monster/liteproblems/16
     I was able come up with solution with the hint of using two-pointer for this ques, rest of the problem was understandable from the question, sorting and looking for triplets is the trick with checking the diff of target was currentSum.
+
+59. [5] Longest Palindromic Substring - https://algo.monster/liteproblems/5
+    I dont have the thinking process to do DP solution, so i am gonna learn DP. but I am able to come up with the gist of the problem based expanding around the center. the actual solution uses the same concepts in a better way

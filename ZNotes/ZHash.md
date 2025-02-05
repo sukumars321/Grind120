@@ -21,3 +21,6 @@
 
 54. Meeting Rooms II - https://neetcode.io/solutions/meeting-rooms-ii    https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
     This problem is based on sweep line algorithm, this can be solved using priorityQueue as well after sorting based on start time.
+
+61. [49] Group Anagrams - https://algo.monster/liteproblems/49
+    Its basically solvable with Map, all you have to do is figure out what to use as key to group the anagrams, that is done by sorting the string and the finding the right group.
