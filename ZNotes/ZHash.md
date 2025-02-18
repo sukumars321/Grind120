@@ -24,3 +24,6 @@
 
 61. [49] Group Anagrams - https://algo.monster/liteproblems/49
     Its basically solvable with Map, all you have to do is figure out what to use as key to group the anagrams, that is done by sorting the string and the finding the right group.
+
+70. [981] Time Based Key-Value Store - https://algo.monster/liteproblems/981
+    For get operation we use binary search, once we figure out how to store the values the problem is solved. We use hashmap but with a twist.

@@ -207,3 +207,27 @@
 
 66. [36] Valid Sudoku - https://algo.monster/liteproblems/36
     This is also simulation question with checking occurence using extra array space. see the solution.
+
+67. [48] Rotate Image - https://algo.monster/liteproblems/48
+    I was able to simulate this question but the usual solution is transpoing matrix.
+
+68. [73] Set Matrix Zeroes - https://algo.monster/liteproblems/73   
+    Another simulation questions, I was able to come up with logic but code implementation could be better. see algo solution for better code.
+
+69. [33] Search in Rotated Sorted Array - https://algo.monster/liteproblems/33
+    pre-determining solution approach before coming up with own think made this problem hard to solve. I knew the idea but still Couldn’t solve.
+
+70. [981] Time Based Key-Value Store - https://algo.monster/liteproblems/981
+    For get operation we use binary search, once we figure out how to store the values the problem is solved. We use hashmap but with a twist.
+
+71. [74] Search a 2D Matrix - https://algo.monster/liteproblems/74
+    We need to use BS on row to find the right row and then use the bs to check if the value exists in row, overall TC log m + log n
+
+72. [153] Find Minimum in Rotated Sorted Array - https://algo.monster/liteproblems/153
+    Simple relation of checking the middle with end to decide which end to cut down is enough.
+
+73. [542] 01 Matrix - https://algo.monster/liteproblems/542
+    This problem took me a week to figure out, its basically a graph BFS, since graph was new to me I couldn't solve it in resonable time. but learned a lot.
+
+74. [133] Clone Graph - https://algo.monster/liteproblems/133
+    We can do both DFS and BFS for this problem, the main trick is to use Hashmap to track the elements
