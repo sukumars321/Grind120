@@ -1,7 +1,6 @@
 1. TwoSum
     Use hashmap to store previous elements and its index, when looking at current index get (target - current element) and check if we have that in the map, if yes return the two indexes.
 
-
 2. Best Time to Buy and Sell Stock - https://algo.monster/liteproblems/121
     This question is based on greedy algorithm
     for each price from the array we need to decide wether to take current price as buy or sell, if we its the lowest price we take as buyprice and skip computing profit, if its not buyprice then we check if the profit (current price - buyprice) is greater than previous profit max.

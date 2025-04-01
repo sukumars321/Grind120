@@ -1,3 +1,5 @@
+package Recommended;
+
 /*
  * @lc app=leetcode id=48 lang=java
  *
@@ -47,7 +49,7 @@ class Solution {
     // the usuall solution is to  flip the matrix upside down and 
     // flip across diagonal
     
-    public void rotate(int[][] matrix) {
+    public void rotateTranspose(int[][] matrix) {
 
         // Obtain the length of the matrix which is a square (same width and height)
 

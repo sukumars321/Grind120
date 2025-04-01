@@ -1,3 +1,5 @@
+package Essantial;
+
 /*
  * @lc app=leetcode id=73 lang=java
  *

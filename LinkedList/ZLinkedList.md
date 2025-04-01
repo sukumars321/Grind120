@@ -1,7 +1,7 @@
 25. [21] Merge Two Sorted Lists - https://algo.monster/liteproblems/21
     I struggled solve this problem, i figured out what needs to be done but couldn't do it in code. the main reason is that i didn't learn why they use dummyhead in linkedlist questions and this problem uses that. apart from the standard solution my idea of pointing the elements in between would work too, but haven't tried it. we use curr to keep track of the last element and update the small value as next at each iteration like merge sort.
 
-26. [141] Linked List Cycle - https://algo.monster/liteproblems/21
+26. [141] Linked List Cycle - https://algo.monster/liteproblems/141
     This uses the standard Floyd's cycle-finding algorithm to detect the cycle. this is also a two pointer question
 
 27. [206] Reverse Linked List - https://algo.monster/liteproblems/206
@@ -9,3 +9,6 @@
 
 29. [234] Palindrome Linked List - https://algo.monster/liteproblems/234
     This problem is basically combination of above to problem and and one extra comparison of values, I got confused on starting element of second half, need to correct that.
+
+    [19] Remove Nth Node From End of List - https://leetcode.ca/2015-12-19-19-Remove-Nth-Node-From-End-of-List/
+        Best example of using dummyhead and fast and slow pointer technique. work the edge cases 1 or 2 elements in pen and paper.

@@ -7,14 +7,12 @@
 // @lc code=start
 class Solution {
 
-    static int[][] dirs = new int[][] { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
-
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         if (image[sr][sc] == color) {
             return image;
         }
         int oldColor = image[sr][sc];
-        fillbetter(image, sr, sc, oldColor, color);
+        fill(image, sr, sc, oldColor, color);
         return image;
     }
 
@@ -40,6 +38,8 @@ class Solution {
         }
 
     }
+
+    static int[][] dirs = new int[][] { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
 
     // learned implementation
     private static void fillbetter(int[][] image, int row, int col, int oldColor, int newColor) {

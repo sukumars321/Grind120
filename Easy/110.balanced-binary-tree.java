@@ -11,6 +11,7 @@
  * int val;
  * TreeNode left;
  * TreeNode right;
+ * TreeNode third
  * TreeNode() {}
  * TreeNode(int val) { this.val = val; }
  * TreeNode(int val, TreeNode left, TreeNode right) {
